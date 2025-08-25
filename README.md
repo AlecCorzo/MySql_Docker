@@ -16,7 +16,7 @@ Este comando se utiliza para crear la carpeta llamada "mysql-docker"
 Como se puede observar la carpeta se creó con éxito
 
 
-## 2. Crear un Docker file
+## 2. Crear el Docker file
 
 Para crear el archivo Dockerfile usamos el siguiente comando en la terminal:
 
@@ -45,7 +45,7 @@ EXPOSE 3306 → Expone el puerto 3306 (el que usa MySQL por defecto).
 
 De esta forma, el archivo Dockerfile queda creado y listo para usar.
 
-## 3. Construcción de la imagen
+## 3. Construir la imagen
 
 
 Ingresamos el siguiente comando para hacer la contrucción de la imagen:
@@ -90,13 +90,15 @@ Y ahora comprobamos que el contenedor esté corriendo
 Y como se puede ver la imagen está corriendo con éxito
 
 
-## 6. Conectarse con el cliente MySQL desde el host
+## 6. Conectar con el cliente MySQL desde el host
 
 Procedemos a conectarnos con el cliente de MySQL y realizamos una consulta para verificar que funcione bien
 
 <img width="1665" height="1462" alt="image" src="https://github.com/user-attachments/assets/b5814500-4195-4768-baa5-2c0361e6dc01" />
 
 
+## Conclusión
 
+Con esto ya tenemos un contenedor de MySQL corriendo en Docker desde Kali Linux, con persistencia de datos y accesible desde el cliente MySQL del host.
 
 
