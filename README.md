@@ -65,7 +65,7 @@ Con eso filtraremos y veremos solo la imagen que acabamos de construir.
 ## 4. Crear un volumen (Opcional)
 
 Procedemos a crear un volumen, un volumen en Docker es un espacio de almacenamiento persistente que vive fuera del contenedor, administrado por Docker.
-Para evitar que cuando se cierre o borre el contenedor perdamos los datos creados en el, esto es opcional pero es una buena opción para manejar la persistencia.
+Para evitar que cuando se cierre o borre el contenedor perdamos los datos que se encuentren en este mismo, esto es opcional pero es una buena opción para manejar la persistencia.
 
 <img width="750" height="147" alt="image" src="https://github.com/user-attachments/assets/4f53f948-dcfa-4c0a-bc4d-0c2f3b053390" />
 
